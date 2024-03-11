@@ -1,0 +1,39 @@
+APIs refer to an interface between different applications.
+API forms an interface between this server and the various clients.
+It refers to an interface that we write in our application to allow other applications to communicate with us.
+
+The client instances consume the server through this API.
+
+As you might have guessed, the API forms the entry point for all communication with the server.
+
+However, in the use cases involving APIs, typically the clients and server belong to different organizations.
+
+The server needs to process the request from clients that span different organizations that can be in different networks as well.
+
+This helps the server to scale its operation by exposing a single API that addresses the request from any clients, irrespective of the client's details.
+
+PARTS OF HTTP Requests
+The request components corresponds to the request that has been sent from the client to the server.
+
+The response component corresponds to the response that is being sent from the server to the client.
+
+REQUEST COMPONENTS 
+Method- Get, Post, Put, Delete
+URL- Uniquely Identify Resource
+Headers- Meta data of request
+Content- Query Parameters, Body
+
+RESPONSE COMPONENTS 
+Status Code- Success 2XX, Client-Side error 4XX, Server-Side error 5XX
+Headers- Meta data response
+Content- Response Body
+
+POSTMAN- Collaboration Platform for API Development
+
+RESOURCES 
+Resources should be Collections
+Points:
+    Collection is a separate resource from an item 
+    Each item in Collection to have an unique URL
+    Use plural nouns for URLs
+    Use hyphens for multiple words
